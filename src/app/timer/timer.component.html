@@ -1,0 +1,20 @@
+<div class="content">
+
+  <div class="content-timer">
+    <span>{{min}}</span>
+    <span> : </span>
+    <span> {{sec}}</span>
+  </div>
+
+  <div class="content-buttons">
+    <button (click)="start()">Start</button>
+    <button (dblclick)="wait()">Wait</button>
+    <button (click)="reset()">Clear</button>
+  </div>
+
+  <div class="content-desc">
+    <span class="desc-text">Start: start/stop time counting, stops and resets the stopwatch value.</span>
+    <span class="desc-text">Wait: it works on a double click, the stopwatch must stop counting time. If you press start after that, the countdown resumes.</span>
+    <span class="desc-text">Clear: reset the stopwatch to 0. It resets and starts counting again.</span>
+  </div>
+</div>

@@ -1,0 +1,69 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  background-image: linear-gradient(to right, rgb(88, 161, 88), #0ac269);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  height: 400px;
+  width: 600px;
+  box-shadow: 0 3px 6px black;
+}
+
+.content-timer {
+  margin-top: 50px;
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+.content-desc {
+  display: flex;
+}
+
+.content-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.content-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 20px 60px;
+}
+
+.desc-text {
+  font-size: 14px;
+}
+
+button {
+  padding: 15px 40px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0c5331;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:active {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
